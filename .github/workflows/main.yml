@@ -13,6 +13,9 @@ env:
   BASE_IMAGE: crosslanguagesoccerframework/rcssserver
   BASE_TAG: latest
 
+permissions:
+  contents: write
+
 jobs:
   app-image:
     runs-on: ubuntu-latest
